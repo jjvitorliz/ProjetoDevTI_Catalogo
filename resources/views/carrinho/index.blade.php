@@ -1,4 +1,1 @@
-@extends('layouts.app')
-@section("content")
-<h1>Carrinho</h1>
-@endsection
+<h1>Carrinho de Compras</h1>

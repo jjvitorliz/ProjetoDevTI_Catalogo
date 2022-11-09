@@ -83,7 +83,7 @@
                     </div>
                 </div>
             </nav>
-            <div class="col-sm-2 row-sm-2" style="background-color: red">
+            <div class="col-sm-2 row-sm-2">
                 Categorias
             </div>
             <main class="py-4">

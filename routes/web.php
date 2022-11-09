@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CarrinhoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
-Route::get('carrinho/index', function () {
-    return view('index');
-});
+
+Route::get('carrinho/buscar', [CarrinhoController::class, 'buscar']);
+Route::resource('carrinho', CarrinhoController::class);
